@@ -1,0 +1,9 @@
+cf-api-url: https://api.sys.pikes.pal.pivotal.io
+cf-username: amin_ubwani@syntelinc.com
+cf-password: 7399fa34
+cf-org: amin-ubwani-pal
+github-repository: git@github.com:GITHUB_USERNAME/pal-tracker.git
+github-private-key:
+  -----BEGIN RSA PRIVATE KEY-----
+ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkF4WeIFRE9QssDQymvzNwZeaUWelUymQZVdb7BjRf2sLg71oDziZGi+mlBqOLB4GjosXVLVzbEixQtXVvj6WM1vEcxjK4wMHoN34CVHcovmcB82eKyLs6jh0asj7sWGsy0Gz95rwzoYELmJSv4wDZNXexkAckSydGklHM2A1zt1c+8w+a38ihxo71ZilJttO3Tp/JSkLqVR9/HxPNyQsfBwE9fIlsd+7CFdLYkHv3dAGbf7IJp5zZjIEaodAOrZYBpUWthaKUliH6U4zU9Mr9w5lhd21UyOQkjpnXCPLoKvHjl+UfYd3xYVaa+g6UtjEikggM4x6UMQwUGkQ6KVEUmF3iaig1JXIXTzyMfbivqQ26wnBy5xU3Iip3zzKWV9+JBELDvpJtQKE7/OawrmGbT1zrVL7VzU6uJuP2nqUU3rCpIcN8XakjoU2l8PsGgskgO3tx39seUS75N2pJreLMb+tqho21d+3R3EoHtS0tXUIt9l1ZX99dum6O7PDWhjqzxbaG9UMYoq5YWia7LB2Nw8SKUcAgWOGY7Rbe6o7xLGAP31g1i0ihg/5Vlm2z1yyKZ65qWW4Yo4jGY7sI+d6oi+KKy8QZ9Fhmly/Z98AB9C8Apld8irbXUFfRPO6roFFob+39dqVCvvLzfmhz2mNFOZ3U3w8059X3zjZnX1Ut0Q== aminubwani@gmail.com
+  -----END RSA PRIVATE KEY-----
