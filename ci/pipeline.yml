@@ -81,3 +81,29 @@ jobs:
       path: pal-tracker-artifacts/pal-tracker-*.jar
       environment_variables:
         WELCOME_MESSAGE: "Hello from the production environment"
+
+- name: migrate-review
+  plan:
+  - get: pal-tracker
+    passed: [build]
+  - task: run migration
+    file: pal-tracker/ci/migrate.yml
+    params:
+      CF_USERNAME: {{cf-username}}
+      CF_PASSWORD: {{cf-password}}
+      CF_DATABASE: {{cf-database-review}}
+      CF_DATABASE_USER: {{cf-database-user-review}}
+      CF_DATABASE_PASSWORD: {{cf-database-password-review}}
+
+- name: migrate-production
+  plan:
+  - get: pal-tracker
+    passed: [build]
+  - task: run migration
+    file: pal-tracker/ci/migrate.yml
+    params:
+      CF_USERNAME: {{cf-username}}
+      CF_PASSWORD: {{cf-password}}
+      CF_DATABASE: {{cf-database}}
+      CF_DATABASE_USER: {{cf-database-user}}
+      CF_DATABASE_PASSWORD: {{cf-database-password}}
